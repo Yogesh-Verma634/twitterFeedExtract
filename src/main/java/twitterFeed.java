@@ -35,7 +35,7 @@ public class twitterFeed {
 //        Twitter twitterHash = tf.getInstance();
         Twitter twitter = tf.getInstance();
 
-        Query query = new Query("#target");
+//        Query query = new Query("#target");
         QueryResult result;
         Paging pg = new Paging();
         pg.setCount(200);
